@@ -119,11 +119,6 @@ function render(image) {
         -1, 4,-1,
         0,-1, 0,
     ],
-    laplacianWithDiagonals: [
-        -1, -1, -1,
-        -1,  8, -1,
-        -1, -1, -1
-    ],
     horizontalLines: [
         -1, -1, -1,
         2,  2,  2,
@@ -180,7 +175,6 @@ function render(image) {
     { name: "unsharpen", },
     { name: "edgeDetect", },
     { name: "laplacian", },
-    { name: "laplacianWithDiagonals", },
     { name: "horizontalLines", },
     { name: "verticalLines", },
     { name: "diagonalLines1", },
