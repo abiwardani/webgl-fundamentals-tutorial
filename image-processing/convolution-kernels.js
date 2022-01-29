@@ -207,7 +207,6 @@ function render(image) {
   }
   table.appendChild(tbody);
   ui.appendChild(table);
-  $(table).tableDnD({onDrop: drawEffects});
 
   drawEffects();
 
