@@ -167,12 +167,12 @@ function render(image) {
   };
 
   var effects = [
-    { name: "gaussianBlur", on: true },
+    { name: "gaussianBlur", },
     { name: "gaussianBlur2", },
     { name: "gaussianBlur3", },
-    { name: "sharpness", },
-    { name: "sharpen", on: true},
     { name: "unsharpen", },
+    { name: "sharpness", },
+    { name: "sharpen", },
     { name: "edgeDetect", },
     { name: "laplacian", },
     { name: "horizontalLines", },
@@ -183,7 +183,7 @@ function render(image) {
     { name: "verticalSobel", },
     { name: "boxBlur", },
     { name: "triangleBlur", },
-    { name: "emboss", on: true }
+    { name: "emboss", }
   ];
 
   var ui = document.querySelector("#ui");
